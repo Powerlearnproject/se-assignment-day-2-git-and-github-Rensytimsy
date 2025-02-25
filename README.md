@@ -6,7 +6,13 @@
 2.  Makes project work flow much easier since people can work on the same project but on different branches hence enhancing collaboration flow
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
-
+1. name a folder eg my_folder
+2. navigate to the folder cd ./my_folder
+3. git init - to initialise the current files in the directory as files to be saved at github.
+4. git add . - to add all files present in that directory
+5. git commit -m "adding new plaing files" -> to add a message that suggests the files added\
+6. git push origin main https://github.com/githubaccount.git - this will add the files to the repository on git hub in this case "gihubaccount"
+   
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
 1. README is like an introduction page to a book, it contains details based on the project like, what it is about, technologies used and how to install and run the project.
 2. Importance of a Readme file is that it provides details concerning the project to someone, this simple reduces the hassle of one, researching and trying to understand what's the project is all about
